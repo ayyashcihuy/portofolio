@@ -8,6 +8,9 @@ export default {
     extend: {
       backgroundImage: {
         'hero': "url('./src/Assets/bg-image.jpg')"
+      },
+      letterSpacing: {
+        veryWide: '0.2em'
       }
     },
   },

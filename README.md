@@ -1,5 +1,5 @@
 # portofolio
-saya ingin memelihara kucing anggora
+saya ingin menangkap kuda poni
 
 ref: https://www.figma.com/files/project/34403404
 

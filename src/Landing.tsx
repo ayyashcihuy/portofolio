@@ -1,11 +1,20 @@
+import Home from "./Pages/Home";
+import Resume from "./Pages/Resume";
+import Portofolio from "./Pages/Portofolio";
+
 export default function LandingPage() {
+
     return (
-        <div className="h-screen w-full bg-[#1E1E1E] flex flex-col justify-between">
-            <nav className="flex flex-row justify-between text-white">
-                <div>
-                    <a href="home">Home</a>
-                </div>
-            </nav>
+        <div className="relative h-full w-full bg-[#302424] flex flex-col justify-start">
+            <div className="h-screen">
+                <Home />
+            </div>
+            <div className="h-screen">
+                <Resume />
+            </div>
+            <div className="h-screen">
+                <Portofolio />
+            </div>
         </div>
     )
 }
